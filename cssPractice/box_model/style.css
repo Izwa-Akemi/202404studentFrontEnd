@@ -36,3 +36,8 @@
     /*ブロックを真ん中に配置*/
     margin: 0 auto;
 }
+
+
+div,h3,a{
+    border: 1px solid black;
+}
