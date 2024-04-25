@@ -1,0 +1,19 @@
+/*罫線の書き方*/
+#text-1{
+    /*線の種類*/
+    border-style: solid dotted double dashed;
+    /*線の色*/
+    border-color: red green;
+
+    /*線の太さ*/
+    border-width: 4px;
+
+    /*角丸にする*/
+    border-radius:10px ;
+}
+
+#text-2{
+    /*border-style: solid dashed;*/
+    /*border-bottom:3px solid black ;*/
+      border: 3px solid red;
+}
