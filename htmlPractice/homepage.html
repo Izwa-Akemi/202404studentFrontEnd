@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ブログ</title>
+</head>
+<body>
+    <header>
+        <img src="./image/eto_tatsu_banzai.png" alt="龍">
+        <nav>
+            <ul>
+                <li><a href="">ホーム</a></li>
+                <li><a href="#blog">ブログ記事</a></li>
+                <li><a href="#content">お問合せ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>最新のニュース</h2>
+            <div>
+                <p>最新のニュースです</p>
+            </div>
+            <div>
+                <p>最新のニュースです</p>
+            </div>
+        </section>
+        <section id="blog">
+            <h2>最新のブログ記事</h2>
+            <article>
+                <a href="">
+                    <img src="./image/google.png" alt="">
+                    <p>JAVAに関する記事です</p>
+                </a>
+            </article>
+            <article>
+                <a href="">
+                    <img src="./image/google.png" alt="">
+                    <p>JAVAに関する記事です</p>
+                </a>
+            </article>
+            <article>
+                <a href="">
+                    <img src="./image/google.png" alt="">
+                    <p>JAVAに関する記事です</p>
+                </a>
+            </article>
+        </section>
+        <section id="content">
+            <h2>お問合せ</h2>
+            <p>何か質問がありましたら、以下の入力欄に入力して送信してください</p>
+            <form action="#" method="post">
+                <div>
+                   <label for="name">お名前</label>
+                   <input type="text" id="name" name="name" required> 
+                </div>
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="text" id="email" name="email" required> 
+                 </div>
+                 <div>
+                    <label for="detail">お問合せ内容</label>
+                    <textarea name="detail" id="detail" cols="30" rows="10"></textarea>
+                 </div>
+                 <button>送信</button>
+            </form>
+        </section>
+    </main>
+    <footer><p>Copyright<small>&copy; ブログの管理者</small></p></footer>
+</body>
+</html>
